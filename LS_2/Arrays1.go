@@ -13,4 +13,7 @@ func main() {
 
 	primes := [6]int{2, 3, 5, 7, 11, 13} // array of prime numbers of size 6
 	fmt.Println(primes)
+
+	b := [2]string{"tjabba", "tjena"}
+	fmt.Printf("%q", b)
 }
