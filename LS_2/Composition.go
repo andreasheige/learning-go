@@ -5,17 +5,14 @@ import (
 )
 
 type User struct {
-	Id       int
-	Name     string
-	Location string
+	Id             int
+	Name, Location string
 }
 
 //type Player with one additional attribute
 type Player struct {
-	Id       int
-	Name     string
-	Location string
-	GameId   int
+	User   //user will contain all the required attributes
+	GameId int
 }
 
 func main() {
